@@ -1,0 +1,14 @@
+-r requirements.txt
+
+# Optional expert stack. These packages provide stronger PDF parsing,
+# neural embeddings, FAISS acceleration, and rank-bm25 scoring when your
+# Python version has compatible wheels.
+pymupdf>=1.24.0
+sentence-transformers>=2.7.0
+faiss-cpu>=1.8.0
+rank-bm25>=0.2.2
+Pillow>=10.0.0
+pytesseract>=0.3.10
+openai-whisper>=20231117
+fastapi>=0.110.0
+uvicorn>=0.29.0
